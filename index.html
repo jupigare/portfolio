@@ -4,41 +4,46 @@
 	<title>[Page Title]</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+	<script src="jquery.js"></script> 
+ </head>
 <body>
 
 <header>
 	<div id="navig">
 		<ul>
 			<li><a href="#">Home</a></li>
-			<li><a href="#work">Work</a></li>
+			<li><a href="#projects">Projects</a></li>
 			<li><a href="#contact">Contact</a></li>
 		</ul>
 	</div>
 	<div class="caption">
 		<h1>[Your Name]</h1>
-		<h2>[some description: your job title, location, etc.]</h2>
+		<h2>[some subtitle: your job title, location, etc.]</h2>
+		<h3>[some description/short "about me", if needed]</h3>
 	</div>
-	<p><a href="#work">scroll down</a></p>
+	<p><a href="#projects">scroll down</a></p>
 </header>
 
-<section id="work">
-	<h2>Work</h2>
+<section id="projects">
+	<h2>Projects</h2>
 	<!--These are placeholders you can add your own projects to. -->
+	<!--Thumbnails must be 200px x 150px. -->
 	<ul>
-		<li><a href="#">Project 1</a></li>
-		<li><a href="#">Project 2</a></li>
-		<li><a href="#">Project 3</a></li>
-		<li><a href="#">Project 4</a></li>
-		<li><a href="#">Project 5</a></li>
-		<li><a href="#">Project 6</a></li>
-		<li><a href="#">Project 7</a></li>
-		<li><a href="#">Project 8</a></li>
+		<li class="project project1"><a href="#URL1" target="_blank"><img src="thumbnail.png"></a></li>
+		<li class="project project2"><a href="#URL2" target="_blank"><img src="thumbnail.png"></a></li>
+		<li class="project project3"><a href="#URL3" target="_blank"><img src="thumbnail.png"></a></li>
+		<li class="project project4"><a href="#URL4" target="_blank"><img src="thumbnail.png"></a></li>
+		<li class="project project5"><a href="#URL5" target="_blank"><img src="thumbnail.png"></a></li>
+		<li class="project project6"><a href="#URL6" target="_blank"><img src="thumbnail.png"></a></li>
+		<li class="project project7"><a href="#URL7" target="_blank"><img src="thumbnail.png"></a></li>
+		<li class="project project8"><a href="#URL8" target="_blank"><img src="thumbnail.png"></a></li>
 	</ul>
 </section>
 
 
 <footer>
+	<p class="scroll"><a href="#">scroll up</a></p>
 	<div id="contact">
 		<h2>Contact Me</h2>
 		<h3>[Your Name]</h3>
@@ -47,11 +52,12 @@
 		<p><a href="#">Resume</a></p>
 		<p><a href="#">Email</a></p>
 		<ul id="links">
-			<li id="lin"><a href="http://www.linkedin.com/">LinkedIn</a></li>
-			<li id="gh"><a href="https://github.com/">GitHub</a></li>
-			<li id="tw"><a href="https://twitter.com/">Twitter</a></li>
-			<li id="ig"><a href="http://instagram.com/">Instagram</a></li>
+			<li id="lin"><a href="http://www.linkedin.com/"><img src="icons/linkedin_In-R_32px_white.png" alt="LinkedIn" /></a></li>
+			<li id="gh"><a href="https://github.com/"><img src="icons/github_mark_32px_white.png" alt="Github" /></a></li>
+			<li id="tw"><a href="https://twitter.com/"><img src="icons/twitter_circle_32px_white.png" alt="twitter" /></a></li>
+			<li id="ig"><a href="http://instagram.com//"><img src="icons/instagram_glyph_32px_white.png" alt="Instagram" /></a></li>
 		</ul>
+		<p>Photos and website design by <a href="https://github.com/jupigare/portfolio_template" target="_blank">Jasmine Singh</a>.</p>
 	</div>
 </footer>
 

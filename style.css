@@ -8,29 +8,34 @@ p,a {
 	text-decoration:none;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family:Georgia, Palatino, "Palatino Linotype", serif;
+	font-family:Umbra, Georgia, Palatino, "Palatino Linotype", serif;
 	font-weight:normal;
 }
-h1 {
-	font-size:36pt;
-	font-weight:normal;
-}
-h2 {
-	font-size:18pt;
-}
-#navig ul; #work ul, #links ul {
+	h1 {
+		margin:15px 0 10px 0;
+		font-size:36pt;
+		font-weight:normal;
+	}
+	h2 {
+		font-size:18pt;
+	}
+	h3 {
+		font-size:13pt;
+		margin:15px;
+	}
+	h4 {
+		font-size:12pt;
+		margin-bottom:5px;
+	}
+#navig ul; #projects ul, #links ul {
 	list-style:none;
 }
-#work li a, #links li a {
+#links li a {
 	color:#000;
 	display:inline-block;
 	width:100%;
 	height:40px;
-/*	overflow:hidden;
-    text-indent:100%;
-    white-space:nowrap;*/
 }
-
 
 html, body {
 	background-color:#111;
@@ -52,8 +57,10 @@ header {
 	background-image:url("bg1.png");
 	background-position:top center;
 	color:#dedede;
+	font-weight:bolder;
 	text-align:center;
 	min-height:100%;
+	border-bottom:1px solid #dedede;
 }
 	#navig {
 		background:#111 url('bg_nav.jpg') 0 0 repeat-x;
@@ -70,14 +77,11 @@ header {
 	}
 	#navig li {
 		display:inline-block;
+		font-weight:normal;
 		text-align:center;
 		width:75px;
 		height:25px;
 		padding:0 8px;
-		/*border-left:1px solid #dedede;*/
-	}
-	#navig li:last-child {
-		/*border-right:1px solid #dedede;*/
 	}
 	#navig li:first-child:before {
 		content:none;
@@ -108,25 +112,41 @@ header {
 		color:#dedede;
 	}
 
+/* Projects */
 section {
 	background:#dedede;
 	color:#000;
 	text-align:center;
-	margin:10px 0;
+	margin:10px 0 5px;
 	padding:40px 10px 50px 10px;
 }
-#work h2 {
-	margin-bottom:15px;
-}
-#work li {
-	background:#fff;
-	display:inline-block;
-	width:20%;
-	height:150px;
-	margin:10px;
-	padding-top:100px;
-	border:1px solid #111;
-}
+	#projects h2 {
+		margin-bottom:15px;
+	}
+	#projects li {
+		background:#fff;
+		display:inline-block;
+		width:200px;
+		height:150px;
+		margin:10px;
+		padding:5px;
+		border:1px solid #111;
+	}
+	#projects li div {
+		background:#444;
+		opacity:0.75;
+		color:#fff;
+		font-size:0.8em;
+		width:210px;
+		height:75px;
+		padding:5px 0 0;
+		margin:-80px 0 0 -5px;
+	}
+	#projects p, #projects li div a {
+		color:#fff;
+		padding:3px;
+	}
+
 
 footer {
 	background-color:#111;
@@ -135,29 +155,50 @@ footer {
 	margin:0 auto;
 	min-height:70%;
 }
+	footer p.scroll {
+		color:#fff;
+		background:#000;
+		text-align:center;
+		margin:0;
+		padding:0px 10px 10px;
+		border-bottom:1px solid #dedede;
+	}
 	footer p a {
-		color:#999;
+		font-weight:bolder;
+		color:#dedede;
 	}
 	#contact {
+		background:#000;
 		position:absolute;
 		right:10px;
-		top:0px;
+		top:35px;
 		width:24%;
+		padding:0;
+		margin:0;
 	}
-	#contact h2, #contact h3, #contact p {
+	#contact h2, #contact h3 {
 		color:#fff;
+		padding:0;
+		margin:0 0 10px;
+	}
+	#contact p {
+		background:none;
+		color:#fff;
+		text-align:left;
+		margin:0;
+		padding:0;
+		border-bottom:none;
+	}
+	#contact p a {
+		color:#999;
+	}
+	#contact p {
 		margin:5px 0;
 	}
-	#links {
-		height:275px;
-	}
 	#links li {
-		background:#dedede;
-		font-size:7pt;
-		text-align:center;
 		display:inline-block;
 		width:50px;
 		height:35px;
-		padding-top:15px;
-		margin:10px 6px;
+		margin:10px 3px;
 	}
+	 
