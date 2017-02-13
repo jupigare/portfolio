@@ -54,7 +54,7 @@ header,footer {
 
 header {
 	background-color:#dedede;
-	background-image:url("bg1.png");
+	background-image:url("bg_header.jpg");
 	background-position:top center;
 	color:#dedede;
 	font-weight:bolder;
@@ -150,7 +150,7 @@ section {
 
 footer {
 	background-color:#111;
-	background-image:url("bg2.jpg");
+	background-image:url("bg_footer.jpg");
 	background-position:bottom right;
 	margin:0 auto;
 	min-height:70%;
