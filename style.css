@@ -9,25 +9,31 @@ p,a {
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family:Umbra, Georgia, Palatino, "Palatino Linotype", serif;
-	font-weight:normal;
+	/*font-weight:normal;*/
+	font-weight:bold;
 }
 	h1 {
 		margin:15px 0 10px 0;
 		font-size:36pt;
-		font-weight:normal;
+		/*font-weight:bold;*/
 	}
 	h2 {
-		font-size:18pt;
-	}
+		font-size:24pt;
+		/*font-weight:bold;*/
+		}
 	h3 {
-		font-size:13pt;
+		font-size:16pt;
 		margin:15px;
 	}
 	h4 {
-		font-size:12pt;
-		margin-bottom:5px;
+		font-size:13pt;
+		margin:15px;
 	}
-#navig ul; #projects ul, #links ul {
+	h5 {
+		font-size:12pt;
+		margin:0 0 5px;
+	}
+#navig ul, #projects ul, #links ul {
 	list-style:none;
 }
 #links li a {
@@ -112,7 +118,7 @@ header {
 		color:#dedede;
 	}
 
-/* Projects */
+/* Projects & Skills */
 section {
 	background:#dedede;
 	color:#000;
@@ -120,33 +126,74 @@ section {
 	margin:10px 0 5px;
 	padding:40px 10px 50px 10px;
 }
-	#projects h2 {
-		margin-bottom:15px;
-	}
-	#projects li {
-		background:#fff;
-		display:inline-block;
-		width:200px;
-		height:150px;
-		margin:10px;
-		padding:5px;
-		border:1px solid #111;
-	}
-	#projects li div {
-		background:#444;
-		opacity:0.75;
-		color:#fff;
-		font-size:0.8em;
-		width:210px;
-		height:75px;
-		padding:5px 0 0;
-		margin:-80px 0 0 -5px;
-	}
-	#projects p, #projects li div a {
-		color:#fff;
-		padding:3px;
-	}
+section h2 {
+	margin-bottom:15px;
+}
 
+/* Projects */
+#projects li {
+	background:#fff;
+	display:inline-block;
+	width:200px;
+	height:150px;
+	margin:10px;
+	padding:5px;
+	border:1px solid #111;
+}
+#projects li div {
+	background:#444;
+	opacity:0.75;
+	color:#fff;
+	font-size:0.8em;
+	width:210px;
+	height:75px;
+	padding:5px 0 0;
+	margin:-78px 0 0 -5px;
+}
+#projects p, #projects li div a {
+	color:#fff;
+	padding:4px;
+}
+
+/* Dog photo */
+#dog {	
+	background:#111 url("bg_dog.jpg") top center fixed;
+	background-size:cover;
+	min-width:90%;
+	min-height:50%;
+	border:1px solid #dedede;
+}
+
+
+/* Skills */
+#skills {
+	min-height:200px;
+}
+	#skills ul {
+		text-align:left;
+		font-family:Umbra, Georgia, Palatino, "Palatino Linotype", serif;
+		margin:0 auto;
+		list-style:circle;
+		width:750px;
+	}
+	#skills li {
+		font-weight:bold;
+		display:inline-block;
+		float:left;
+		width:150px;
+	}
+	#skills ul.skill {
+		font-family:Verdana, Helvetica, "Helvetica Neue", Arial, sans-serif;
+		font-size:10pt;
+		padding:0 1px;
+		margin:0;
+		width:140px;
+		list-style:square inside;
+	}
+	#skills ul.skill li {
+		font-weight:normal;
+		display:list-item;
+	}
 
 footer {
 	background-color:#111;
@@ -160,7 +207,7 @@ footer {
 		background:#000;
 		text-align:center;
 		margin:0;
-		padding:0px 10px 10px;
+		padding:0 10px 10px;
 		border-bottom:1px solid #dedede;
 	}
 	footer p a {
@@ -174,7 +221,7 @@ footer {
 		top:35px;
 		width:24%;
 		padding:0;
-		margin:0;
+		margin:5px 0 0;
 	}
 	#contact h2, #contact h3 {
 		color:#fff;
