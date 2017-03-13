@@ -4,8 +4,6 @@
 	<title>[Page Title]</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
-	<script src="jquery.js"></script> 
  </head>
 <body>
 
@@ -28,17 +26,28 @@
 
 <section id="projects">
 	<h2>Projects</h2>
-	<!--These are placeholders you can add your own projects to. -->
-	<!--Thumbnails must be 200px x 150px. -->
 	<ul>
-		<li class="project project1"><a href="#URL1" target="_blank"><img src="thumbnail.png"></a></li>
-		<li class="project project2"><a href="#URL2" target="_blank"><img src="thumbnail.png"></a></li>
-		<li class="project project3"><a href="#URL3" target="_blank"><img src="thumbnail.png"></a></li>
-		<li class="project project4"><a href="#URL4" target="_blank"><img src="thumbnail.png"></a></li>
-		<li class="project project5"><a href="#URL5" target="_blank"><img src="thumbnail.png"></a></li>
-		<li class="project project6"><a href="#URL6" target="_blank"><img src="thumbnail.png"></a></li>
-		<li class="project project7"><a href="#URL7" target="_blank"><img src="thumbnail.png"></a></li>
-		<li class="project project8"><a href="#URL8" target="_blank"><img src="thumbnail.png"></a></li>
+		<!--These are placeholders you can add your own projects to. -->
+		<li class="project project1 project-left">
+			<a href="#URL1" target="_blank"><img class="thumb" src="projects/thumbnail.png" alt="PROJECT1"></a>
+			<div>
+				<h5><a href="#URL1" target="_blank" class="linkout">PROJECT1</a></h5>
+				<h6><a href="#GITHUB_FOR_PROJECT1" target="_blank" class="linkout"><img src="icons/github_mark_16px_white.png" alt="Github" /> Source Code</a></h6>
+				<p>Subtitle</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut tincidunt ipsum, vitae tincidunt enim. Sed ornare iaculis rhoncus. Vivamus scelerisque viverra erat, nec interdum ante. Ut pharetra, ipsum nec accumsan efficitur, augue ex fermentum ante, vel pretium neque diam ut lacus. Vivamus nisi eros, ullamcorper ut eleifend in, consectetur vel nibh. Donec non nisi vitae lacus fermentum faucibus sed eget augue. Suspendisse at quam sed turpis blandit rutrum. Mauris nec leo tortor. Proin laoreet eros vel elit ornare, nec porttitor velit venenatis. Suspendisse potenti. Sed et nunc ut urna rhoncus blandit rhoncus sit amet nibh. Praesent vestibulum semper orci pharetra egestas. Donec sit amet consequat arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  </p>
+				<p>Duis pharetra nisi ultrices, tincidunt mauris id, ornare sapien. Proin nisi purus, tempor sit amet dui ut, pulvinar tristique nunc. Mauris fringilla, dolor vel placerat sollicitudin, dolor dolor semper erat, et luctus tortor nulla dictum quam. Aliquam dictum orci id turpis venenatis, eu pharetra nulla maximus. Nam ut porta sapien. Vivamus sodales pulvinar leo vestibulum consectetur. Maecenas efficitur urna ac ligula fringilla facilisis. Curabitur iaculis vel mauris eget venenatis. Aliquam convallis elementum dui a suscipit.  </p>
+			</div>
+		</li>
+		<li class="project project2 project-right">
+			<a href="#URL2" target="_blank"><img class="thumb" src="projects/thumbnail.png" alt="PROJECT2"></a>
+			<div>
+				<h5><a href="#URL2" target="_blank" class="linkout">PROJECT2</a></h5>
+				<h6><a href="#GITHUB_FOR_PROJECT2" target="_blank" class="linkout"><img src="icons/github_mark_16px_white.png" alt="Github" /> Source Code</a></h6>
+				<p>Subtitle</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut tincidunt ipsum, vitae tincidunt enim. Sed ornare iaculis rhoncus. Vivamus scelerisque viverra erat, nec interdum ante. Ut pharetra, ipsum nec accumsan efficitur, augue ex fermentum ante, vel pretium neque diam ut lacus. Vivamus nisi eros, ullamcorper ut eleifend in, consectetur vel nibh. Donec non nisi vitae lacus fermentum faucibus sed eget augue. Suspendisse at quam sed turpis blandit rutrum. Mauris nec leo tortor. Proin laoreet eros vel elit ornare, nec porttitor velit venenatis. Suspendisse potenti. Sed et nunc ut urna rhoncus blandit rhoncus sit amet nibh. Praesent vestibulum semper orci pharetra egestas. Donec sit amet consequat arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  </p>
+				<p>Duis pharetra nisi ultrices, tincidunt mauris id, ornare sapien. Proin nisi purus, tempor sit amet dui ut, pulvinar tristique nunc. Mauris fringilla, dolor vel placerat sollicitudin, dolor dolor semper erat, et luctus tortor nulla dictum quam. Aliquam dictum orci id turpis venenatis, eu pharetra nulla maximus. Nam ut porta sapien. Vivamus sodales pulvinar leo vestibulum consectetur. Maecenas efficitur urna ac ligula fringilla facilisis. Curabitur iaculis vel mauris eget venenatis. Aliquam convallis elementum dui a suscipit.  </p>
+			</div>
+		</li>
 	</ul>
 </section>
 
@@ -48,6 +57,7 @@
 
 <section id="skills">
 	<h2>Skills</h2>
+	<!-- Feel free to add anything else to this section: hobbies, awards/recognition, links to blogs/articles you've written, etc. -->
 	<ul>
 		<li>Category A <ul class="skill">
 			<li>Skill 1</li>
@@ -88,11 +98,10 @@
 </section>
 
 <footer>
-	<p class="scroll"><a href="#">scroll up</a></p>
+	<p class="scroll"><a href="#">back to top</a></p>
 	<div id="contact">
 		<h2>Contact Me</h2>
 		<h3>[Your Name]</h3>
-		<p>[Some description, life story, goals, etc.]</p>
 		<!-- replace the below with appropriate URLs; feel free to add more links-->
 		<p><a href="#">Resume</a></p>
 		<p><a href="#">Email</a></p>
