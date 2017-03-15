@@ -1,120 +1,143 @@
-<!DOCTYPE html> 
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
 <head>
-	<title>[Page Title]</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
- </head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[Title Goes Here]</title>
+  <link rel="shortcut icon" href="favicon.png" />
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
 <body>
+  <header class="header">
+    <ul class="header-subnav">
+      <li><a href="#">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
+  <section class="parallax-background hero">
+    <div class="row intro">
+      <div class="small-centered medium-uncentered medium-12 large-12 columns">
+        <h1>[Your Name]</h1>
+        <h4>[some subtitle: your job title, location, etc.]</h4>
+        <h6>[some description/short "about me", if needed]</h6>
+      </div>
+    </div>
+    <div class="intro intro-text">
+      <h3>scroll down <br />
+      <i class="fi-arrow-down"></i></h3>
+    </div>
+  </section>
 
-<header>
-	<div id="navig">
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#projects">Projects</a></li>
-			<li><a href="#skills">Skills</a></li>
-			<li><a href="#contact">Contact</a></li>
-		</ul>
-	</div>
-	<div class="caption">
-		<h1>[Your Name]</h1>
-		<h2>[some subtitle: your job title, location, etc.]</h2>
-		<h3>[some description/short "about me", if needed]</h3>
-	</div>
-	<p><a href="#projects">scroll down</a></p>
-</header>
+  <div class="parallax-content" id="projects">
+    <h2 class="text-center">Projects</h2>
 
-<section id="projects">
-	<h2>Projects</h2>
-	<ul>
-		<!--These are placeholders you can add your own projects to. -->
-		<li class="project project1 project-left">
-			<a href="#URL1" target="_blank"><img class="thumb" src="projects/thumbnail.png" alt="PROJECT1"></a>
-			<div>
-				<h5><a href="#URL1" target="_blank" class="linkout">PROJECT1</a></h5>
-				<h6><a href="#GITHUB_FOR_PROJECT1" target="_blank" class="linkout"><img src="icons/github_mark_16px_white.png" alt="Github" /> Source Code</a></h6>
-				<p>Subtitle</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut tincidunt ipsum, vitae tincidunt enim. Sed ornare iaculis rhoncus. Vivamus scelerisque viverra erat, nec interdum ante. Ut pharetra, ipsum nec accumsan efficitur, augue ex fermentum ante, vel pretium neque diam ut lacus. Vivamus nisi eros, ullamcorper ut eleifend in, consectetur vel nibh. Donec non nisi vitae lacus fermentum faucibus sed eget augue. Suspendisse at quam sed turpis blandit rutrum. Mauris nec leo tortor. Proin laoreet eros vel elit ornare, nec porttitor velit venenatis. Suspendisse potenti. Sed et nunc ut urna rhoncus blandit rhoncus sit amet nibh. Praesent vestibulum semper orci pharetra egestas. Donec sit amet consequat arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  </p>
-				<p>Duis pharetra nisi ultrices, tincidunt mauris id, ornare sapien. Proin nisi purus, tempor sit amet dui ut, pulvinar tristique nunc. Mauris fringilla, dolor vel placerat sollicitudin, dolor dolor semper erat, et luctus tortor nulla dictum quam. Aliquam dictum orci id turpis venenatis, eu pharetra nulla maximus. Nam ut porta sapien. Vivamus sodales pulvinar leo vestibulum consectetur. Maecenas efficitur urna ac ligula fringilla facilisis. Curabitur iaculis vel mauris eget venenatis. Aliquam convallis elementum dui a suscipit.  </p>
-			</div>
-		</li>
-		<li class="project project2 project-right">
-			<a href="#URL2" target="_blank"><img class="thumb" src="projects/thumbnail.png" alt="PROJECT2"></a>
-			<div>
-				<h5><a href="#URL2" target="_blank" class="linkout">PROJECT2</a></h5>
-				<h6><a href="#GITHUB_FOR_PROJECT2" target="_blank" class="linkout"><img src="icons/github_mark_16px_white.png" alt="Github" /> Source Code</a></h6>
-				<p>Subtitle</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut tincidunt ipsum, vitae tincidunt enim. Sed ornare iaculis rhoncus. Vivamus scelerisque viverra erat, nec interdum ante. Ut pharetra, ipsum nec accumsan efficitur, augue ex fermentum ante, vel pretium neque diam ut lacus. Vivamus nisi eros, ullamcorper ut eleifend in, consectetur vel nibh. Donec non nisi vitae lacus fermentum faucibus sed eget augue. Suspendisse at quam sed turpis blandit rutrum. Mauris nec leo tortor. Proin laoreet eros vel elit ornare, nec porttitor velit venenatis. Suspendisse potenti. Sed et nunc ut urna rhoncus blandit rhoncus sit amet nibh. Praesent vestibulum semper orci pharetra egestas. Donec sit amet consequat arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  </p>
-				<p>Duis pharetra nisi ultrices, tincidunt mauris id, ornare sapien. Proin nisi purus, tempor sit amet dui ut, pulvinar tristique nunc. Mauris fringilla, dolor vel placerat sollicitudin, dolor dolor semper erat, et luctus tortor nulla dictum quam. Aliquam dictum orci id turpis venenatis, eu pharetra nulla maximus. Nam ut porta sapien. Vivamus sodales pulvinar leo vestibulum consectetur. Maecenas efficitur urna ac ligula fringilla facilisis. Curabitur iaculis vel mauris eget venenatis. Aliquam convallis elementum dui a suscipit.  </p>
-			</div>
-		</li>
-	</ul>
-</section>
+    <div class="row clearfix">
+      <div class="small-12 large-4 columns float-right">
+        <a href="#URL1" target="_blank"><img class="thumbnail" src="img/projects/thumbnail.png" alt="PROJECT1"></a>
+      </div>
+      <div class="small-12 large-8 columns">
+        <h4><a href="#URL1" target="_blank" class="linkout">PROJECT1</a></h4>
+        <h5><a href="https://github.com/" target="_blank" class="linkout"><i class="fi-social-github"></i> Source Code</a></h5>
+        <p>Hackathon Project</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut tincidunt ipsum, vitae tincidunt enim. Sed ornare iaculis rhoncus. Vivamus scelerisque viverra erat, nec interdum ante. Ut pharetra, ipsum nec accumsan efficitur, augue ex fermentum ante, vel pretium neque diam ut lacus. Vivamus nisi eros, ullamcorper ut eleifend in, consectetur vel nibh. Donec non nisi vitae lacus fermentum faucibus sed eget augue. Suspendisse at quam sed turpis blandit rutrum. Mauris nec leo tortor. Proin laoreet eros vel elit ornare, nec porttitor velit venenatis. Suspendisse potenti. Sed et nunc ut urna rhoncus blandit rhoncus sit amet nibh. Praesent vestibulum semper orci pharetra egestas. Donec sit amet consequat arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+      </div>
+    </div>
+    <hr>
+    <div class="row clearfix">
+      <div class="small-12 large-4 columns float-left">
+        <a href="#URL2" target="_blank"><img class="thumbnail" src="img/projects/thumbnail.png" alt="PROJECT2" /></a>
+      </div>
+      <div class="small-12 large-8 columns">
+        <h4><a href="#URL2" target="_blank" class="linkout">PROJECT2</a></h4>
+        <h5><a href="https://github.com/" target="_blank" class="linkout"><i class="fi-social-github"></i>  Source Code</a></h5>
+        <p>Duis pharetra nisi ultrices, tincidunt mauris id, ornare sapien. Proin nisi purus, tempor sit amet dui ut, pulvinar tristique nunc. Mauris fringilla, dolor vel placerat sollicitudin, dolor dolor semper erat, et luctus tortor nulla dictum quam. Aliquam dictum orci id turpis venenatis, eu pharetra nulla maximus. Nam ut porta sapien. Vivamus sodales pulvinar leo vestibulum consectetur. Maecenas efficitur urna ac ligula fringilla facilisis. Curabitur iaculis vel mauris eget venenatis. Aliquam convallis elementum dui a suscipit. </p>
+      </div>
+    </div>
+  </div>
 
-<section id="dog">
-	<!-- photo of my dog is added here in CSS -->
-</section>
+  <section class="parallax-background dog">
+    <!-- photo of a dog is added here in CSS -->
+  </section>
 
-<section id="skills">
-	<h2>Skills</h2>
-	<!-- Feel free to add anything else to this section: hobbies, awards/recognition, links to blogs/articles you've written, etc. -->
-	<ul>
-		<li>Category A <ul class="skill">
-			<li>Skill 1</li>
-			<li>Skill 2</li>
-			<li>Skill 3</li>
-			<li>Skill 4</li>
-			<li>Skill 5</li>
-		</ul></li>
-		<li>Category B <ul class="skill">
-			<li>Skill 1</li>
-			<li>Skill 2</li>
-			<li>Skill 3</li>
-			<li>Skill 4</li>
-			<li>Skill 5</li>
-		</ul></li>
-		<li>Category C <ul class="skill">
-			<li>Skill 1</li>
-			<li>Skill 2</li>
-			<li>Skill 3</li>
-			<li>Skill 4</li>
-			<li>Skill 5</li>
-		</ul></li>
-		<li>Category D <ul class="skill">
-			<li>Skill 1</li>
-			<li>Skill 2</li>
-			<li>Skill 3</li>
-			<li>Skill 4</li>
-			<li>Skill 5</li>
-		</ul></li>
-		<li>Category E <ul class="skill">
-			<li>Skill 1</li>
-			<li>Skill 2</li>
-			<li>Skill 3</li>
-			<li>Skill 4</li>
-			<li>Skill 5</li>
-		</ul></li>
-	</ul>
-</section>
+  <section class="parallax-content" id="skills">
+    <h2 class="text-center">Skills</h2>
+    <!-- Feel free to add anything else to this section: hobbies, awards/recognition, links to blogs/articles you've written, etc. -->
+    <div class="row">
+      <div class="small-4 medium-3 large-2 columns">
+        <h3>Category A</h3>
+        <ul>
+          <li>Skill 1</li>
+          <li>Skill 2</li>
+          <li>Skill 3</li>
+          <li>Skill 4</li>
+          <li>Skill 5</li>
+        </ul>
+      </div>
+      <div class="small-4 medium-3 large-2 columns">
+        <h3>Category B</h3>
+        <ul>
+          <li>Skill 1</li>
+          <li>Skill 2</li>
+          <li>Skill 3</li>
+          <li>Skill 4</li>
+          <li>Skill 5</li>
+        </ul>
+      </div>
+      <div class="small-4 medium-3 large-2 columns">
+        <h3>Category C</h3>
+        <ul>
+          <li>Skill 1</li>
+          <li>Skill 2</li>
+          <li>Skill 3</li>
+          <li>Skill 4</li>
+          <li>Skill 5</li>
+        </ul>
+      </div>
+      <div class="small-4 medium-3 large-2 columns">
+        <h3>Category D</h3>
+        <ul>
+          <li>Skill 1</li>
+          <li>Skill 2</li>
+          <li>Skill 3</li>
+          <li>Skill 4</li>
+          <li>Skill 5</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-<footer>
-	<p class="scroll"><a href="#">back to top</a></p>
-	<div id="contact">
-		<h2>Contact Me</h2>
-		<h3>[Your Name]</h3>
-		<!-- replace the below with appropriate URLs; feel free to add more links-->
-		<p><a href="#">Resume</a></p>
-		<p><a href="#">Email</a></p>
-		<ul id="links">
-			<li id="lin"><a href="http://www.linkedin.com/"><img src="icons/linkedin_In-R_32px_white.png" alt="LinkedIn" /></a></li>
-			<li id="gh"><a href="https://github.com/"><img src="icons/github_mark_32px_white.png" alt="Github" /></a></li>
-			<li id="al"><a href="https://angel.co/"><img src="icons/angellist_victoryhand_32px_white.png" alt="AngelList" /></a></li>
-			<li id="tw"><a href="https://twitter.com/"><img src="icons/twitter_circle_32px_white.png" alt="twitter" /></a></li>
-			<li id="ig"><a href="http://instagram.com//"><img src="icons/instagram_glyph_32px_white.png" alt="Instagram" /></a></li>
-		</ul>
-		<p>Photos and website design by <a href="http://jas.si" target="_blank">Jasmine Singh</a>. If you want to use it, get the source on <a href="https://github.com/jupigare/portfolio_template" target="_blank">GitHub</a>.</p>
-	</div>
-</footer>
+  <h3 class="scroll text-center"><a href="#">
+    <i class="fi-arrow-up"></i> <br />
+    back to top
+  </a></h3>
+  <footer class="parallax-background footer">
+    <div class="row"><div class="columns"></div>
+    <div class="small-5 medium-3 large-2 columns">
+      <h2 class="row">Contact Me</h2>
+      <h3 class="row">[Your Name]</h3>
+      <ul class="contact">
+        <li><i class="fi-page-pdf"></i> <a href="#RESUME_URL">Resume</a></li>
+        <li><i class="fi-mail"></i> <a href="#EMAIL_ADDRESS">Email</a></li>
+      </ul>
+      <ul class="inline-list social">
+        <li><a href="http://www.linkedin.com/"><i class="fi-social-linkedin"></i></a></li>
+        <li><a href="https://github.com/"><i class="fi-social-github"></i></a></li>
+        <li><a href="https://twitter.com/"><i class="fi-social-twitter"></i></a></li>
+        <li><a href="http://instagram.com//"><i class="fi-social-instagram"></i></a></li>
+      </ul>
+      <p class="about">Photos and website design by Jasmine Singh, using <a href="http://foundation.zurb.com/" target="_blank">Foundation.</a> If you would like to use this layout, get the source on <a href="https://github.com/jupigare/portfolio_template" target="_blank" class="linkout">GitHub.</a></p>
+    </div>
+    </div>
+  </footer>
 
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>

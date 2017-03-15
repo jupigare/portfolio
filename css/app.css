@@ -1,0 +1,217 @@
+body {
+  background: #000;
+  font-family: Verdana, Helvetica, "Helvetica Neue", Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: Umbra, Georgia, Palatino, "Palatino Linotype", serif;
+}
+a.linkout:after {
+  content:' \1F865';
+}
+
+.header {
+  text-align: center;
+}
+.header-subnav {
+  background: rgba(17,45,68, 0.75);
+  position: fixed;
+  top:0px;
+  z-index:99;
+  margin: 0 auto;
+  width: 100%;
+  border-bottom:1px solid #cfd9e5;
+}
+  .header-subnav li {
+    float: none;
+    display: inline-block;
+  }
+    .header-subnav li a {
+      color: #ffe;
+      padding: 0.9rem 1rem;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      display: block;
+      font-weight: bold;
+      letter-spacing: 1px;
+      transition: all 0.35s ease-in-out;
+    }
+      .header-subnav li a.is-active {
+        background: rgba(250, 250, 250, 0.15);
+      }
+      .header-subnav li a:hover {
+        background: rgba(250, 250, 250, 0.15);
+        transition: all 0.35s ease-in-out;
+      }
+
+.hero {
+  background: url("../img/bg/bg_header.jpg") no-repeat top center fixed;
+  height: 100vh;
+  color: #fff;
+  top:0;
+}
+.hero:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom right, #000, #012);
+  opacity: 0.3;
+}
+  .hero .intro {
+    padding: 3rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    letter-spacing: -0.025em;
+    font-weight: 300;
+  }
+  .hero h2, .hero h3, .hero h4, .hero h5 {
+    line-height: 1.75em;
+    font-weight: 200;
+    margin-bottom: 2rem;
+  }
+  .hero p {
+    line-height: 1.25em;
+    font-weight: 200;
+    text-align: center;
+  }
+  .hero .intro-text {
+    margin-top:-4rem;
+  }
+
+  @media only screen and (min-width: 40.063em) {
+    .hero h1 {
+      padding-top: 4.5rem;
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+    .hero .intro-text {
+      padding-top: 5rem;
+    } 
+  }
+
+.dog {
+  background: url("../img/bg/bg_dog.jpg") no-repeat top center fixed;
+  background-size:cover;
+  height: 50vh;
+}
+
+h3.scroll {
+  padding: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.footer {
+  background: url("../img/bg/bg_footer.jpg") no-repeat bottom right fixed;
+  color:#fff;
+  min-height:80vh;
+  overflow: hidden;
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+  .footer .contact {
+    list-style-type: none;
+    margin: 2rem 0 3rem 4rem;
+    text-align: left;
+  }
+    .footer .contact li {
+      margin-bottom: 2rem;
+    }
+    .footer .contact li p {
+      padding-left: 5rem;
+    }
+    .footer .contact i {
+      background-color: #112d44;
+      border-radius: 20%;
+      color: #fff;
+      font-size: 2rem;
+      line-height: 1;
+      position: absolute;
+      margin: 0 0 0 -4rem;
+      vertical-align: middle;
+      padding: .25em .45em;
+    }
+  .footer .inline-list {
+    list-style-type: none;
+    text-align: left;
+    /*margin: 2rem 0 0 3rem;*/
+  }
+    .footer .inline-list li {
+      display: inline-block;
+      vertical-align: top;
+    }
+    .footer .inline-list i {
+      font-size: 2rem;
+    }
+    .footer .inline-list a {
+      background-color: #112d44;
+      border-radius: 20%;
+      color: #fff;
+      font-size: 1.5rem;
+      text-align: center;
+      line-height: 35px;
+      display: inline-block;
+      width: 2rem;
+      height: 2rem;
+      margin: 0 3px 0 0;
+    }
+  .footer .about {
+    color: #cfd9e5;
+    font-size: 0.875rem;
+    margin: 1rem 0;
+  }
+  .footer .footer-links a {
+    color: #fff;
+    list-style: none;
+    font-weight: normal;
+    padding: 3rem 0 2rem;
+    margin: 0;
+    font-size: 0.875rem;
+  }
+    .footer .footer-links a::after {
+      content: "•";
+      padding: 0 0.2rem 0 0.4rem;
+    }
+    .footer .footer-links a:last-child::after {
+      content: "";
+      padding: 0 0.4rem 0 0.8rem;
+    }
+@media only screen and (min-width: 40.063em) {
+  .footer p {
+    text-align: left;
+  }
+  .footer .social {
+    text-align: left;
+    margin: 0;
+  }
+  .footer .contact {
+    text-align: left;
+  }
+  .footer .contact > i {
+    margin-right: 1rem;
+  }
+}
+
+
+.parallax-content {
+  background-color: #fff;
+  max-width: 100%;
+  position: relative;
+  padding: 1rem;
+  font-size: 16px;
+}
+
+.parallax-background {
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+}
